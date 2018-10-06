@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">StuffCount</string>
+
+    <!--  String for nothing found. -->
+    <string name="database_nothing">Nothing to read  :(  \nCreate a new inventory item or generate one from the settings menu.</string>
+
+    <!-- Debug String for the text view -->
+    <string name="database_count"> Number of rows in Database: </string>
+
+    <!-- String for settings menu to tell the device to generate something. -->
+    <string name="settings_create_row">create false data entry</string>
+
+    <!-- String for settings menu to tell the device to delete the database -->
+    <string name="settings_delete_db">delete DB contents</string>
+
+    <!-- String for settings menu to tell the device to create a new entry. -->
+    <string name="settings_create_new_manual_entry">Create a New Inventory Item</string>
+
+    <!-- Main:Dialog text for delete DB contents asking do you want to delete. -->
+    <string name="main_dialog_delete_db_msg">Would you like to delete all contents in the database?</string>
+
+    <!-- main:dialog text for delete db contents asking button DELETE -->
+    <string name="main_dialog_delete_db_button_delete">DELETE</string>
+
+    <!-- main:dialog text for delete db contents asking button Cancel -->
+    <string name="main_dialog_delete_db_button_cancel">Cancel</string>
+
+    <!-- sale button -->
+    <string name="list_view_sale_button">Sale</string>
+
+    <!-- Main Title -->
+    <string name="main_title">Books Inventory</string>
+
+    <!-- Quantity Title for adapter -->
+    <string name="adapter_quantity">Quantity: </string>
+
+    <!-- Editor title hint -->
+    <string name="editor_hint_title">Title</string>
+
+    <!-- Editor price hint -->
+    <string name="editor_hint_price">$ USD</string>
+
+    <!-- Editor Supplier Name hint -->
+    <string name="editor_hint_supplierName">Supplier Name</string>
+
+    <!-- Editor Supplier Phone hint -->
+    <string name="editor_hint_supplierPhone">Supplier Phone#</string>
+
+    <!-- Editor quantity textveiw -->
+    <string name="editor_quantity_text_view">Quantity</string>
+
+    <!-- Editor price textView -->
+    <string name="editor_price_text_view">Price:</string>
+
+    <!-- list items Nothing to sell info -->
+    <string name="list_view_noneLeft">There are no more items to sell</string>
+
+    <!-- list items failed to sale -->
+    <string name="list_view_failedSale">Unable to sell this item</string>
+
+    <!-- list items success on sale -->
+    <string name="list_view_successSale">Sold!</string>
+
+    <!-- Editor Label for editing -->
+    <string name="editor_label">Item Editor</string>
+
+    <!-- Editor Label for adding -->
+    <string name="editor_label_adding">New Item</string>
+
+    <!-- Editor Button for SAVE -->
+    <string name="editor_button_save">Save</string>
+
+    <!-- Editor Button for Cancel -->
+    <string name="editor_button_cancel">Cancel</string>
+
+    <!-- Editor Button for Delete -->
+    <string name="editor_button_delete">Delete</string>
+
+    <!-- Editor Button for Update -->
+    <string name="editor_button_update">Update</string>
+
+    <!-- STRINGS FOR MESSAGES -->
+    <!-- Delete message -->
+    <string name="editor_ask_to_delete">Are you sure you want to delete this item?</string>
+
+    <!-- if hitting back, do you want to save first? -->
+    <string name="editor_ask_to_save">Would you like to save this item?</string>
+
+    <!-- yes -->
+    <string name="editor_yes">Yes</string>
+
+    <!-- no -->
+    <string name="editor_no">No</string>
+
+    <!-- Delete Success -->
+    <string name="editor_delete_success">Item deleted</string>
+
+    <!-- delete failed -->
+    <string name="editor_delete_failed">Error deleting item</string>
+
+    <!-- successfully saved! -->
+    <string name="editor_save_success">Successfully saved!</string>
+
+    <!-- failed save! -->
+    <string name="editor_save_failed">Unknown error - Item not saved</string>
+
+</resources>

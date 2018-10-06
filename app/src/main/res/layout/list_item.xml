@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="6dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="6dp">
+    <!-- This descendantFocusability line makes the item 'clickable'-->
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="false"
+        card_view:cardBackgroundColor="@color/list_view_card_background"
+        card_view:cardCornerRadius="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- NAME -->
+            <TextView
+                android:id="@+id/listItem_textView_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="8dp"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="This is the Name." />
+
+            <!-- Price -->
+            <TextView
+                android:id="@+id/listItem_textView_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/listItem_textView_name"
+                android:padding="8dp"
+                android:textStyle="italic"
+                tools:text="This is the Price 19.99$" />
+
+            <!-- Quantity -->
+            <TextView
+                android:id="@+id/listItem_textView_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:padding="8dp"
+                tools:text="Quantity: 4" />
+
+            <!-- Sale Button -->
+            <Button
+                android:id="@+id/listItem_button_sale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/listItem_textView_quantity"
+                android:padding="8dp"
+                android:text="@string/list_view_sale_button"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
